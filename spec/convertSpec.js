@@ -1,7 +1,7 @@
 describe('Convert library', function() {
 	describe('distance converter', function() {
 		it ('converts inches to centimetres', function() {
-			expect(Convert(12, 'in').to('cm')).toEqual(30.48); 
+			expect(Convert(12, 'inches').to('cm')).toEqual(30.48); 
 		}); 
 
 		it ('converts centimetres to yards', function() {
@@ -11,7 +11,7 @@ describe('Convert library', function() {
 
 	describe('volume converter', function() {
 		it ('converts litres to gallons', function() {
-			expect(Convert(2, 'litres').to('gallons')).toEqual(0.79); 
+			expect(Convert(2, 'litres').to('gallons')).toEqual(0.53); 
 		}); 
 
 		it ('converts gallons to cups', function() {
